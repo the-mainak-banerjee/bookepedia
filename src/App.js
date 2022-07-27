@@ -67,6 +67,15 @@ const bookDb = {
         "This best-selling introduction to programming in JavaScript focuses on writing real applications.JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications",
       bookLink:
         "https://www.amazon.in/Eloquent-JavaScript-3rd-Introduction-Programming/dp/1593279507"
+    },
+    {
+      title: "The Principles of Object-Oriented JavaScript",
+      author: "Nicholas C. Zakas",
+      rating: "4.1/5",
+      description:
+        "If you've used a more traditional object-oriented language, such as C++ or Java, JavaScript probably doesn't seem object-oriented at all. It has no concept of classes, and you don't even need to define any objects in order to write code. But don't be fooled—JavaScript is an incredibly powerful and expressive object-oriented language that puts many design decisions right into your hands.",
+      bookLink:
+        "https://www.amazon.in/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404"
     }
   ],
   Marketing: [
@@ -95,6 +104,15 @@ const bookDb = {
         "The definitive playbook by the pioneers of Growth Hacking, one of the hottest business methodologies in Silicon Valley and beyond.",
       bookLink:
         "https://www.amazon.in/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X"
+    },
+    {
+      title: "Crushing It",
+      author: "Gary Vee",
+      rating: "4.6/5",
+      description:
+        "In his 2009 international bestseller Crush It, Gary insisted that a vibrant personal brand was crucial to entrepreneurial success, In Crushing It, Gary explains why thats even more true today, offering his unique perspective on what has changed and what principles remain timeless. He also shares stories from other entrepreneurs who have grown wealthier and not just financially than they ever imagined possible by following Crush It principles",
+      bookLink:
+        "https://www.amazon.in/Crushing-Great-Entrepreneurs-Business-Influence/dp/0062845020/ref=sr_1_2?qid=1658902465&refinements=p_27%3AGary+Vaynerchuk&s=books&sr=1-2"
     }
   ]
 };
