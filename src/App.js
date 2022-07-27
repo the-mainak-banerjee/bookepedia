@@ -58,6 +58,15 @@ const bookDb = {
         "This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skillset.",
       bookLink:
         "https://www.amazon.in/You-Don%E2%80%B2t-Know-JS-Closures/dp/1449335586"
+    },
+    {
+      title: "Eloquent JavaScript",
+      author: "Marjin Haverbeke",
+      rating: "4.3/5",
+      description:
+        "This best-selling introduction to programming in JavaScript focuses on writing real applications.JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications",
+      bookLink:
+        "https://www.amazon.in/Eloquent-JavaScript-3rd-Introduction-Programming/dp/1593279507"
     }
   ],
   Marketing: [
