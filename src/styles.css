@@ -35,9 +35,10 @@ header {
 
 .active {
   background-color: #49a0eb;
+  box-shadow: 10px -2px 28px -16px rgba(0, 0, 0, 0.58);
 }
 
-.non {
+.inActive {
   background-color: gray;
 }
 

@@ -108,7 +108,7 @@ export default function App() {
       <section className="buttons">
         {Object.keys(bookDb).map((item) => (
           <button
-            className={selectedGenre === item ? "active" : "non"}
+            className={selectedGenre === item ? "active" : "inActive"}
             onClick={() => clickHandler(item)}
           >
             {item}
