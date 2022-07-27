@@ -97,8 +97,6 @@ export default function App() {
     setSelectedGenre(item);
   };
 
-  console.log(bookDb[selectedGenre]);
-
   return (
     <div className="App">
       <header>
@@ -108,6 +106,7 @@ export default function App() {
       <section className="buttons">
         {Object.keys(bookDb).map((item) => (
           <button
+            key={item}
             className={selectedGenre === item ? "active" : "inActive"}
             onClick={() => clickHandler(item)}
           >
@@ -117,7 +116,7 @@ export default function App() {
       </section>
       <section>
         {bookDb[selectedGenre].map((item) => (
-          <div className="book-details-container">
+          <div key={item.title} className="book-details-container">
             <h3 className="book-details">{item.title}</h3>
             <p className="book-details">Author: {item.author}</p>
             <p className="book-details">Rating: {item.rating}</p>
