@@ -59,6 +59,34 @@ const bookDb = {
       bookLink:
         "https://www.amazon.in/You-Don%E2%80%B2t-Know-JS-Closures/dp/1449335586"
     }
+  ],
+  Marketing: [
+    {
+      title: "Hooked: How to Build Habit-Forming Products",
+      author: "Nir Eyal",
+      rating: "4.2/5",
+      description:
+        "The book helps to establish the process apps go through to get to this habit forming status, following a 'trigger', 'action', 'reward', 'investment'.",
+      bookLink:
+        "https://www.amazon.in/Hooked-How-Build-Habit-Forming-Products/dp/0241184835"
+    },
+    {
+      title: "This is Marketing: You Can’t Be Seen Until You Learn To See",
+      author: "Seth Godin",
+      rating: "4.5/5",
+      description:
+        "This is Marketing shows you how to do work you're proud of, whether you're a tech startup founder, a small business owner, or part of a large corporation. No matter what your product or service, this book will help you reframe how it's presented to the world, in order to meaningfully connect with people who want it.",
+      bookLink: "https://www.amazon.in/This-Marketing-Seth-Godin/dp/0241370140"
+    },
+    {
+      title: "Hacking Growth",
+      author: "Sean Ellis",
+      rating: "4.8/5",
+      description:
+        "The definitive playbook by the pioneers of Growth Hacking, one of the hottest business methodologies in Silicon Valley and beyond.",
+      bookLink:
+        "https://www.amazon.in/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X"
+    }
   ]
 };
 
